@@ -3,16 +3,16 @@
 def countdown(seconds)
   while seconds>0 
   puts "#{seconds} SECOND(S)!"
-  seconds-=1 
+  seconds-=1
+  puts "HAPPY NEW YEAR!"
 end
-puts "HAPPY NEW YEAR!"
 end
 
 def countdown_with_sleep(seconds)
   while seconds>0 
+  sleep(5)
   puts "#{seconds} SECOND(S)!"
   seconds-=1 
-  sleep(5)
+  puts "HAPPY NEW YEAR!"
+  end
 end
-end
-puts "HAPPY NEW YEAR!"
