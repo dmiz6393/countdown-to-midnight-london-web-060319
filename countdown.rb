@@ -1,7 +1,7 @@
 
 
 def countdown(Integer)
-  counter=0 
+  counter=Integer
   while counter>0 
   puts "#{integer}SECOND(S)!"
   counter-=1 
